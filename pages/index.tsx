@@ -23,7 +23,7 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [agents, setAgents] = useState<any>([]);
   const [agentsCount, setAgentsCount] = useState(0);
-  const [previewImage, setPreviewImage] = useState("05.jpg");
+  const [previewImage, setPreviewImage] = useState("05.JPG");
   const [size, setSize] = useState(40);
   const [model, setModel] = useState(2);
   const router = useRouter();
@@ -150,28 +150,28 @@ export default function Home() {
     console.log(newModel);
     switch (newModel) {
       case 1:
-        setPreviewImage("04.jpg");
+        setPreviewImage("04.JPG");
         break;
       case 2:
-        setPreviewImage("05.jpg");
+        setPreviewImage("05.JPG");
         break;
 
       case 3:
-        setPreviewImage("06.jpg");
+        setPreviewImage("06.JPG");
         break;
 
       case 4:
-        setPreviewImage("07.jpg");
+        setPreviewImage("07.JPG");
         break;
 
       case 5:
-        setPreviewImage("08.jpg");
+        setPreviewImage("08.JPG");
         break;
       case 6:
-        setPreviewImage("09.jpg");
+        setPreviewImage("09.JPG");
         break;
       default:
-        setPreviewImage("05.jpg");
+        setPreviewImage("05.JPG");
         break;
     }
   };
@@ -223,23 +223,23 @@ export default function Home() {
                   <img src={previewImage} alt="" className="w-full" />
                 </div>
                 <div className="grid gap-2 grid-cols-5 mt-2">
-                  <button onClick={() => setPreviewImage("04.jpg")}>
-                    <Image src="/04.jpg" width={128} height={160} />
+                  <button onClick={() => setPreviewImage("04.JPG")}>
+                    <Image src="/04.JPG" width={128} height={160} />
                   </button>
-                  <button onClick={() => setPreviewImage("05.jpg")}>
-                    <Image src="/05.jpg" width={128} height={160} />
+                  <button onClick={() => setPreviewImage("05.JPG")}>
+                    <Image src="/05.JPG" width={128} height={160} />
                   </button>
-                  <button onClick={() => setPreviewImage("06.jpg")}>
-                    <Image src="/06.jpg" width={128} height={160} />
+                  <button onClick={() => setPreviewImage("06.JPG")}>
+                    <Image src="/06.JPG" width={128} height={160} />
                   </button>
-                  <button onClick={() => setPreviewImage("07.jpg")}>
-                    <Image src="/07.jpg" width={128} height={160} />
+                  <button onClick={() => setPreviewImage("07.JPG")}>
+                    <Image src="/07.JPG" width={128} height={160} />
                   </button>
-                  <button onClick={() => setPreviewImage("08.jpg")}>
-                    <Image src="/08.jpg" width={128} height={160} />
+                  <button onClick={() => setPreviewImage("08.JPG")}>
+                    <Image src="/08.JPG" width={128} height={160} />
                   </button>
-                  <button onClick={() => setPreviewImage("09.jpg")}>
-                    <Image src="/09.jpg" width={128} height={160} />
+                  <button onClick={() => setPreviewImage("09.JPG")}>
+                    <Image src="/09.JPG" width={128} height={160} />
                   </button>
                 </div>
               </div>
@@ -283,22 +283,22 @@ export default function Home() {
                 </div>
                 <div className="grid gap-2 grid-cols-5 mt-2">
                   <button onClick={() => handleUpdateModel(1)}>
-                    <Image src="/04.jpg" width={128} height={160} />
+                    <Image src="/04.JPG" width={128} height={160} />
                   </button>
                   <button onClick={() => handleUpdateModel(2)}>
-                    <Image src="/05.jpg" width={128} height={160} />
+                    <Image src="/05.JPG" width={128} height={160} />
                   </button>
                   <button onClick={() => handleUpdateModel(3)}>
-                    <Image src="/06.jpg" width={128} height={160} />
+                    <Image src="/06.JPG" width={128} height={160} />
                   </button>
                   <button onClick={() => handleUpdateModel(4)}>
-                    <Image src="/07.jpg" width={128} height={160} />
+                    <Image src="/07.JPG" width={128} height={160} />
                   </button>
                   <button onClick={() => handleUpdateModel(5)}>
-                    <Image src="/08.jpg" width={128} height={160} />
+                    <Image src="/08.JPG" width={128} height={160} />
                   </button>
                   <button onClick={() => handleUpdateModel(6)}>
-                    <Image src="/09.jpg" width={128} height={160} />
+                    <Image src="/09.JPG" width={128} height={160} />
                   </button>
                 </div>
               </div>
@@ -342,7 +342,7 @@ export default function Home() {
                           }`}
                         >
                           <Image
-                            src="/04.jpg"
+                            src="/04.JPG"
                             className="rounded-lg"
                             width={64}
                             height={64}
@@ -358,7 +358,7 @@ export default function Home() {
                           }`}
                         >
                           <Image
-                            src="/05.jpg"
+                            src="/05.JPG"
                             width={64}
                             height={64}
                             alt=""
@@ -374,7 +374,7 @@ export default function Home() {
                           }`}
                         >
                           <Image
-                            src="/06.jpg"
+                            src="/06.JPG"
                             width={64}
                             height={64}
                             alt=""
@@ -390,7 +390,7 @@ export default function Home() {
                           }`}
                         >
                           <Image
-                            src="/07.jpg"
+                            src="/07.JPG"
                             width={64}
                             height={64}
                             alt=""
@@ -406,7 +406,7 @@ export default function Home() {
                           }`}
                         >
                           <Image
-                            src="/08.jpg"
+                            src="/08.JPG"
                             width={64}
                             height={64}
                             alt=""
@@ -422,7 +422,7 @@ export default function Home() {
                           }`}
                         >
                           <Image
-                            src="/09.jpg"
+                            src="/09.JPG"
                             width={64}
                             height={64}
                             alt=""
@@ -646,12 +646,12 @@ export default function Home() {
                 allowFullScreen
               ></iframe> */}
               <div className="text-right mt-0">
-                <img src="/04.jpg" className="my-3" />
-                <img src="/05.jpg" className="my-3" />
-                <img src="/06.jpg" className="my-3" />
-                <img src="/07.jpg" className="my-3" />
-                <img src="/08.jpg" className="my-3" />
-                <img src="/09.jpg" className="my-3" />
+                <img src="/04.JPG" className="my-3" />
+                <img src="/05.JPG" className="my-3" />
+                <img src="/06.JPG" className="my-3" />
+                <img src="/07.JPG" className="my-3" />
+                <img src="/08.JPG" className="my-3" />
+                <img src="/09.JPG" className="my-3" />
               </div>
               <div className=" text-right mt-4">
                 <h1 className="text-xl mb-2 text-white">:كيفية الطلب </h1>
