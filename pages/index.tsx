@@ -244,12 +244,12 @@ export default function Home() {
                 </div>
               </div>
               <div>
-                <img src="/04.jpg" className="my-3" />
-                <img src="/05.jpg" className="my-3" />
-                <img src="/06.jpg" className="my-3" />
-                <img src="/07.jpg" className="my-3" />
-                <img src="/08.jpg" className="my-3" />
-                <img src="/09.jpg" className="my-3" />
+                <img src="/04.JPG" className="my-3" />
+                <img src="/05.JPG" className="my-3" />
+                <img src="/06.JPG" className="my-3" />
+                <img src="/07.JPG" className="my-3" />
+                <img src="/08.JPG" className="my-3" />
+                <img src="/09.JPG" className="my-3" />
               </div>
               <div className=" text-right mt-4">
                 <h1 className="text-xl mb-2 text-white">:كيفية الطلب </h1>
